@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/CMakeFiles/metis-populate"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/CMakeFiles/metis-populate.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/CMakeFiles/metis-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/metis-populate-prefix/src/metis-populate-stamp/metis-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/metis-populate-prefix/src/metis-populate-stamp/metis-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/metis-populate-prefix/src/metis-populate-stamp/metis-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/metis-populate-prefix/src/metis-populate-stamp/metis-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/metis-populate-prefix/src/metis-populate-stamp/metis-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/metis-populate-prefix/src/metis-populate-stamp/metis-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/metis-populate-prefix/src/metis-populate-stamp/metis-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/metis-populate-prefix/src/metis-populate-stamp/metis-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"metis-populate"
+		],
+		"name" : "metis-populate"
+	}
+}

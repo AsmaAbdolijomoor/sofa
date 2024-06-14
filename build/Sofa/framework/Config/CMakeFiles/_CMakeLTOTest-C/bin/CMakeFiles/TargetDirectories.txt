@@ -1,0 +1,4 @@
+C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/foo.dir
+C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/boo.dir
+C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/edit_cache.dir
+C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-C/bin/CMakeFiles/rebuild_cache.dir

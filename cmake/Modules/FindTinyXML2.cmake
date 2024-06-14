@@ -1,53 +1,45 @@
-# Find the tinyxml2 headers and libraries
-# Behavior is to first look for config files, such as the one installed by some package
-# managers who provides their own cmake files. If no config files
-# were found, this tries to find the library by looking at headers / lib file.
+# FindTinyXML2.cmake
+# Locate TinyXML2 library
 #
-# Defines:
-#   TinyXML2_FOUND : True if tinyxml2 is found
-#
-# Provides target tinyxml2::tinyxml2.
-find_package(tinyxml2 NO_MODULE QUIET)
+# This module defines
+#  TINYXML2_INCLUDE_DIR, where to find tinyxml2.h, etc.
+#  TINYXML2_LIBRARIES, libraries to link against to use TinyXML2.
+#  TINYXML2_FOUND, If false, do not try to use TinyXML2.
 
-if(TARGET tinyxml2::tinyxml2)
-  set(TinyXML2_FOUND TRUE) # only tinyxml2_FOUND has been set
+if (NOT TINYXML2_INCLUDE_DIR)
+  find_path(TINYXML2_INCLUDE_DIR
+    NAMES tinyxml2.h
+    HINTS ${TINYXML2_ROOT} ${TINYXML2_INCLUDE_DIR} ${TINYXML2_ROOT}/include ${TINYXML2_ROOT}/tinyxml2-10.0.0
+  )
+endif()
+
+if (NOT TINYXML2_LIBRARY)
+  find_library(TINYXML2_LIBRARY
+    NAMES tinyxml2
+    HINTS ${TINYXML2_ROOT} ${TINYXML2_LIBRARY_DIR} ${TINYXML2_ROOT}/lib ${TINYXML2_ROOT}/tinyxml2-10.0.0
+  )
+endif()
+
+include(FindPackageHandleStandardArgs)
+find_package_handle_standard_args(TinyXML2 DEFAULT_MSG
+  TINYXML2_INCLUDE_DIR TINYXML2_LIBRARY)
+
+if (TINYXML2_FOUND)
+  set(TINYXML2_LIBRARIES ${TINYXML2_LIBRARY})
 else()
+  set(TINYXML2_LIBRARIES)
+endif()
 
-  if(NOT TinyXML2_INCLUDE_DIR)
-    find_path(TinyXML2_INCLUDE_DIR
-      NAMES tinyxml2.h
-      PATH_SUFFIXES include
+mark_as_advanced(TINYXML2_INCLUDE_DIR TINYXML2_LIBRARY)
+
+
+# If TinyXML2 is manually specified, create the target
+if(TINYXML2_INCLUDE_DIR AND TINYXML2_LIBRARY)
+  if(NOT TARGET tinyxml2::tinyxml2)
+    add_library(tinyxml2::tinyxml2 STATIC IMPORTED)
+    set_target_properties(tinyxml2::tinyxml2 PROPERTIES
+      IMPORTED_LOCATION "${TINYXML2_LIBRARY}"
+      INTERFACE_INCLUDE_DIRECTORIES "${TINYXML2_INCLUDE_DIR}"
     )
   endif()
-
-  if(NOT TinyXML2_LIBRARY)
-  find_library(TinyXML2_LIBRARY
-    NAMES tinyxml2
-    PATH_SUFFIXES lib
-  )
-  endif()
-
-  if(TinyXML2_INCLUDE_DIR AND TinyXML2_LIBRARY)
-    set(TinyXML2_FOUND TRUE)
-  else()
-    if(TinyXML2_FIND_REQUIRED)
-      message(FATAL_ERROR "Cannot find TinyXML2")
-    endif()
-  endif()
-
-  if(TinyXML2_FOUND)
-    set(TinyXML2_LIBRARIES ${TinyXML2_LIBRARY})
-    set(TinyXML2_INCLUDE_DIRS ${TinyXML2_INCLUDE_DIR})
-
-    if(NOT TARGET tinyxml2::tinyxml2)
-      add_library(tinyxml2::tinyxml2 SHARED IMPORTED)
-      set_property(TARGET tinyxml2::tinyxml2 PROPERTY IMPORTED_LOCATION "${TinyXML2_LIBRARIES}")
-      if(WIN32)
-        set_property(TARGET tinyxml2::tinyxml2 PROPERTY IMPORTED_IMPLIB "${TinyXML2_LIBRARIES}")
-      endif()
-      set_property(TARGET tinyxml2::tinyxml2 PROPERTY INTERFACE_INCLUDE_DIRECTORIES "${TinyXML2_INCLUDE_DIR}")
-    endif()
-  else()
-  endif()
-  mark_as_advanced(TinyXML2_INCLUDE_DIR TinyXML2_LIBRARY)
 endif()

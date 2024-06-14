@@ -1,0 +1,3 @@
+C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/CMakeFiles/metis-populate.dir
+C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/_deps/metis-subbuild/CMakeFiles/rebuild_cache.dir

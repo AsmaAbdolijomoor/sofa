@@ -1,0 +1,596 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22000 - AMD64
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx86/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/3.30.0-rc1/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.40.33807/bin/Hostx86/x86/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/3.30.0-rc1/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Note: including file: C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Note: including file: "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-eitwpb"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-eitwpb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-eitwpb'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_7e6f5\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_7e6f5.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_7e6f5.dir\\build
+        Building C object CMakeFiles/cmTC_7e6f5.dir/CMakeCCompilerABI.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_7e6f5.dir\\CMakeCCompilerABI.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eitwpb --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmF371.tmp
+        CMakeCCompilerABI.c
+        Linking C executable cmTC_7e6f5.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_7e6f5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7e6f5.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmF4BB.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_7e6f5.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_7e6f5.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_7e6f5.dir/manifest.res CMakeFiles\\cmTC_7e6f5.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7e6f5.dir\\objects1.rsp /out:cmTC_7e6f5.exe /implib:cmTC_7e6f5.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eitwpb\\cmTC_7e6f5.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7e6f5.dir/intermediate.manifest CMakeFiles\\cmTC_7e6f5.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_7e6f5.dir/intermediate.manifest /out:CMakeFiles\\cmTC_7e6f5.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_7e6f5.dir/manifest.res CMakeFiles\\cmTC_7e6f5.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_7e6f5.dir\\objects1.rsp /out:cmTC_7e6f5.exe /implib:cmTC_7e6f5.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eitwpb\\cmTC_7e6f5.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_7e6f5.dir/intermediate.manifest CMakeFiles\\cmTC_7e6f5.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1440~1.338/bin/Hostx86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1440~1.338/bin/Hostx86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-pyztpa"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-pyztpa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-pyztpa'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_5b1e8\\fast
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_5b1e8.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_5b1e8.dir\\build
+        Building CXX object CMakeFiles/cmTC_5b1e8.dir/CMakeCXXCompilerABI.cpp.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_5b1e8.dir\\CMakeCXXCompilerABI.cpp.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyztpa --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmF65F.tmp
+        CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_5b1e8.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_5b1e8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_5b1e8.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmF69F.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_5b1e8.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_5b1e8.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_5b1e8.dir/manifest.res CMakeFiles\\cmTC_5b1e8.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_5b1e8.dir\\objects1.rsp /out:cmTC_5b1e8.exe /implib:cmTC_5b1e8.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyztpa\\cmTC_5b1e8.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5b1e8.dir/intermediate.manifest CMakeFiles\\cmTC_5b1e8.dir/manifest.res
+        MT:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe /nologo /manifest CMakeFiles\\cmTC_5b1e8.dir/intermediate.manifest /out:CMakeFiles\\cmTC_5b1e8.dir/embed.manifest /notify_update
+        RC Pass 2:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_5b1e8.dir/manifest.res CMakeFiles\\cmTC_5b1e8.dir/manifest.rc
+        FINAL LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_5b1e8.dir\\objects1.rsp /out:cmTC_5b1e8.exe /implib:cmTC_5b1e8.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pyztpa\\cmTC_5b1e8.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_5b1e8.dir/intermediate.manifest CMakeFiles\\cmTC_5b1e8.dir/manifest.res
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1440~1.338/bin/Hostx86/x86/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MIB055~1/2022/COMMUN~1/VC/Tools/MSVC/1440~1.338/bin/Hostx86/x86/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.40.33811.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "Sofa/framework/Config/CMakeLists.txt:125 (check_ipo_supported)"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-CXX/src"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-CXX/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-CXX/bin'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -SC:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\src -BC:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin --check-build-system CMakeFiles\\Makefile.cmake 0
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_progress_start C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\CMakeFiles C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\\\CMakeFiles\\progress.marks
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\Makefile2 /nologo -L                  all
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\foo.dir\\build.make /nologo -L                  CMakeFiles\\foo.dir\\depend
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_depends "NMake Makefiles" C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\src C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\src C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\CMakeFiles\\foo.dir\\DependInfo.cmake
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\foo.dir\\build.make /nologo -L                  CMakeFiles\\foo.dir\\build
+        [ 25%] Building CXX object CMakeFiles/foo.dir/foo.cpp.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\foo.dir\\foo.cpp.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmF892.tmp
+        Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+        Copyright (C) Microsoft Corporation.  All rights reserved.
+        
+        cl   /TP   /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi /GL /showIncludes /FoCMakeFiles\\foo.dir\\foo.cpp.obj /FdCMakeFiles\\foo.dir\\foo.pdb /FS -c C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\foo.cpp
+        
+        foo.cpp
+        [ 50%] Linking CXX static library foo.lib
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -P CMakeFiles\\foo.dir\\cmake_clean_target.cmake
+        	C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\lib.exe  /LTCG /machine:X86 /out:foo.lib @CMakeFiles\\foo.dir\\objects1.rsp
+        Microsoft (R) Library Manager Version 14.40.33811.0
+        Copyright (C) Microsoft Corporation.  All rights reserved.
+        
+        CMakeFiles/foo.dir/foo.cpp.obj 
+        [ 50%] Built target foo
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\boo.dir\\build.make /nologo -L                  CMakeFiles\\boo.dir\\depend
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_depends "NMake Makefiles" C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\src C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\src C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\CMakeFiles\\boo.dir\\DependInfo.cmake
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\boo.dir\\build.make /nologo -L                  CMakeFiles\\boo.dir\\build
+        [ 75%] Building CXX object CMakeFiles/boo.dir/main.cpp.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\boo.dir\\main.cpp.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmF93E.tmp
+        Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+        Copyright (C) Microsoft Corporation.  All rights reserved.
+        
+        cl   /TP   /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi /GL /showIncludes /FoCMakeFiles\\boo.dir\\main.cpp.obj /FdCMakeFiles\\boo.dir\\ /FS -c C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\src\\main.cpp
+        
+        main.cpp
+        [100%] Linking CXX executable boo.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\boo.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe  @CMakeFiles\\boo.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmF97D.tmp
+        Visual Studio Non-Incremental Link
+        LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe @CMakeFiles\\boo.dir\\objects1.rsp /out:boo.exe /implib:boo.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\boo.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console /INCREMENTAL:NO /LTCG foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST:EMBED,ID=1
+        Microsoft (R) Incremental Linker Version 14.40.33811.0
+        Copyright (C) Microsoft Corporation.  All rights reserved.
+        
+        CMakeFiles/boo.dir/main.cpp.obj 
+        Generating code
+        Finished generating code
+        [100%] Built target boo
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_progress_start C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-CXX\\bin\\CMakeFiles 0
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIPOSupported.cmake:138 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIPOSupported.cmake:261 (_ipo_run_language_check)"
+      - "Sofa/framework/Config/CMakeLists.txt:125 (check_ipo_supported)"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-C/src"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-C/bin"
+    buildResult:
+      variable: "_IPO_LANGUAGE_CHECK_RESULT"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/Sofa/framework/Config/CMakeFiles/_CMakeLTOTest-C/bin'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -SC:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\src -BC:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin --check-build-system CMakeFiles\\Makefile.cmake 0
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_progress_start C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin\\CMakeFiles C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin\\\\CMakeFiles\\progress.marks
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\Makefile2 /nologo -L                  all
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\foo.dir\\build.make /nologo -L                  CMakeFiles\\foo.dir\\depend
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_depends "NMake Makefiles" C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\src C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\src C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin\\CMakeFiles\\foo.dir\\DependInfo.cmake
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\foo.dir\\build.make /nologo -L                  CMakeFiles\\foo.dir\\build
+        [ 25%] Building C object CMakeFiles/foo.dir/foo.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\foo.dir\\foo.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmFA96.tmp
+        Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+        Copyright (C) Microsoft Corporation.  All rights reserved.
+        
+        cl     /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi /GL /showIncludes /FoCMakeFiles\\foo.dir\\foo.c.obj /FdCMakeFiles\\foo.dir\\foo.pdb /FS -c C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\src\\foo.c
+        
+        foo.c
+        [ 50%] Linking C static library foo.lib
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -P CMakeFiles\\foo.dir\\cmake_clean_target.cmake
+        	C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\lib.exe  /LTCG /machine:X86 /out:foo.lib @CMakeFiles\\foo.dir\\objects1.rsp
+        Microsoft (R) Library Manager Version 14.40.33811.0
+        Copyright (C) Microsoft Corporation.  All rights reserved.
+        
+        CMakeFiles/foo.dir/foo.c.obj 
+        [ 50%] Built target foo
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\boo.dir\\build.make /nologo -L                  CMakeFiles\\boo.dir\\depend
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_depends "NMake Makefiles" C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\src C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\src C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin\\CMakeFiles\\boo.dir\\DependInfo.cmake
+        	"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\boo.dir\\build.make /nologo -L                  CMakeFiles\\boo.dir\\build
+        [ 75%] Building C object CMakeFiles/boo.dir/main.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\boo.dir\\main.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmFB32.tmp
+        Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33811 for x86
+        Copyright (C) Microsoft Corporation.  All rights reserved.
+        
+        cl     /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi /GL /showIncludes /FoCMakeFiles\\boo.dir\\main.c.obj /FdCMakeFiles\\boo.dir\\ /FS -c C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\src\\main.c
+        
+        main.c
+        [100%] Linking C executable boo.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\boo.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe  @CMakeFiles\\boo.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmFB71.tmp
+        Visual Studio Non-Incremental Link
+        LINK:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe @CMakeFiles\\boo.dir\\objects1.rsp /out:boo.exe /implib:boo.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin\\boo.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console /INCREMENTAL:NO /LTCG foo.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST:EMBED,ID=1
+        Microsoft (R) Incremental Linker Version 14.40.33811.0
+        Copyright (C) Microsoft Corporation.  All rights reserved.
+        
+        CMakeFiles/boo.dir/main.c.obj 
+        Generating code
+        Finished generating code
+        [100%] Built target boo
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_progress_start C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\Sofa\\framework\\Config\\CMakeFiles\\_CMakeLTOTest-C\\bin\\CMakeFiles 0
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-uae7dm"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-uae7dm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake/Modules;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-uae7dm'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_ecd77\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_ecd77.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ecd77.dir\\build
+        Building C object CMakeFiles/cmTC_ecd77.dir/src.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ecd77.dir\\src.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uae7dm --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmC39C.tmp
+        src.c
+        C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uae7dm\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_ecd77.dir\\src.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uae7dm --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmC39C.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_ecd77.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_ecd77.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-mtg0rq"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-mtg0rq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake/Modules;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-mtg0rq'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_3746e\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_3746e.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3746e.dir\\build
+        Building C object CMakeFiles/cmTC_3746e.dir/CheckFunctionExists.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_3746e.dir\\CheckFunctionExists.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mtg0rq --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmC5A0.tmp
+        CheckFunctionExists.c
+        Linking C executable cmTC_3746e.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3746e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_3746e.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmC5FF.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_3746e.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_3746e.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_3746e.dir/manifest.res CMakeFiles\\cmTC_3746e.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_3746e.dir\\objects1.rsp /out:cmTC_3746e.exe /implib:cmTC_3746e.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mtg0rq\\cmTC_3746e.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3746e.dir/intermediate.manifest CMakeFiles\\cmTC_3746e.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_3746e.dir\\objects1.rsp /out:cmTC_3746e.exe /implib:cmTC_3746e.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mtg0rq\\cmTC_3746e.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_3746e.dir/intermediate.manifest CMakeFiles\\cmTC_3746e.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_3746e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_3746e.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmC5FF.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_3746e.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_3746e.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-9a4kzy"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-9a4kzy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake/Modules;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-9a4kzy'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_d1892\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_d1892.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_d1892.dir\\build
+        Building C object CMakeFiles/cmTC_d1892.dir/CheckFunctionExists.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_d1892.dir\\CheckFunctionExists.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9a4kzy --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmC6D8.tmp
+        CheckFunctionExists.c
+        Linking C executable cmTC_d1892.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d1892.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_d1892.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmC718.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_d1892.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_d1892.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_d1892.dir/manifest.res CMakeFiles\\cmTC_d1892.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_d1892.dir\\objects1.rsp /out:cmTC_d1892.exe /implib:cmTC_d1892.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9a4kzy\\cmTC_d1892.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d1892.dir/intermediate.manifest CMakeFiles\\cmTC_d1892.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_d1892.dir\\objects1.rsp /out:cmTC_d1892.exe /implib:cmTC_d1892.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9a4kzy\\cmTC_d1892.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d1892.dir/intermediate.manifest CMakeFiles\\cmTC_d1892.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d1892.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_d1892.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nmC718.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_d1892.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_d1892.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "build/_deps/metis-src/GKlib/GKlibSystem.cmake:102 (check_include_file)"
+      - "build/_deps/metis-src/CMakeLists.txt:8 (include)"
+    checks:
+      - "Looking for execinfo.h"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-8f88a2"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-8f88a2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake/Modules/;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake/Modules;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake/Modules;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/lib/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/lib/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "ON"
+    buildResult:
+      variable: "HAVE_EXECINFO_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-8f88a2'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_69189\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_69189.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_69189.dir\\build
+        Building C object CMakeFiles/cmTC_69189.dir/CheckIncludeFile.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_69189.dir\\CheckIncludeFile.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8f88a2 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nm7B85.tmp
+        CheckIncludeFile.c
+        C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8f88a2\\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'execinfo.h': No such file or directory
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_69189.dir\\CheckIncludeFile.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8f88a2 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nm7B85.tmp' : return code '0x2'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_69189.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_69189.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "build/_deps/metis-src/GKlib/GKlibSystem.cmake:107 (check_function_exists)"
+      - "build/_deps/metis-src/CMakeLists.txt:8 (include)"
+    checks:
+      - "Looking for getline"
+    directories:
+      source: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-0us1i3"
+      binary: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-0us1i3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake/Modules/;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/cmake/Modules;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/Sofa/framework/Config/cmake/Modules;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/lib/cmake;C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/lib/cmake/Modules"
+      CMAKE_WARN_DEPRECATED: "ON"
+    buildResult:
+      variable: "HAVE_GETLINE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/abdol/Documents/GitHub/UpperAirwayMesh/sofa/build/CMakeFiles/CMakeScratch/TryCompile-0us1i3'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 nmake -f Makefile /nologo cmTC_8562c\\fast
+        	"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_8562c.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_8562c.dir\\build
+        Building C object CMakeFiles/cmTC_8562c.dir/CheckFunctionExists.c.obj
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_cl_compile_depends --dep-file=CMakeFiles\\cmTC_8562c.dir\\CheckFunctionExists.c.obj.d --working-dir=C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0us1i3 --filter-prefix="Note: including file: " -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\cl.exe @C:\\Users\\abdol\\AppData\\Local\\Temp\\nm7DF6.tmp
+        CheckFunctionExists.c
+        Linking C executable cmTC_8562c.exe
+        	"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8562c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_8562c.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nm7E35.tmp
+        Visual Studio Incremental Link with embedded manifests
+        Create CMakeFiles\\cmTC_8562c.dir/manifest.rc
+        Create empty: CMakeFiles\\cmTC_8562c.dir/embed.manifest
+        RC Pass 1:
+        C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe /fo CMakeFiles\\cmTC_8562c.dir/manifest.res CMakeFiles\\cmTC_8562c.dir/manifest.rc
+        LINK Pass 1:
+        C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_8562c.dir\\objects1.rsp /out:cmTC_8562c.exe /implib:cmTC_8562c.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0us1i3\\cmTC_8562c.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8562c.dir/intermediate.manifest CMakeFiles\\cmTC_8562c.dir/manifest.res
+        LINK Pass 1: command "C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_8562c.dir\\objects1.rsp /out:cmTC_8562c.exe /implib:cmTC_8562c.lib /pdb:C:\\Users\\abdol\\Documents\\GitHub\\UpperAirwayMesh\\sofa\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0us1i3\\cmTC_8562c.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_8562c.dir/intermediate.manifest CMakeFiles\\cmTC_8562c.dir/manifest.res" failed (exit code 1120) with the following output:
+        CheckFunctionExists.c.obj : error LNK2019: unresolved external symbol _getline referenced in function _main
+        cmTC_8562c.exe : fatal error LNK1120: 1 unresolved externals
+        NMAKE : fatal error U1077: '"C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_8562c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x86\\mt.exe --manifests -- C:\\PROGRA~1\\MIB055~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1440~1.338\\bin\\Hostx86\\x86\\link.exe /nologo @CMakeFiles\\cmTC_8562c.dir\\objects1.rsp @C:\\Users\\abdol\\AppData\\Local\\Temp\\nm7E35.tmp' : return code '0xffffffff'
+        Stop.
+        NMAKE : fatal error U1077: '"C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x86\\nmake.exe"  -f CMakeFiles\\cmTC_8562c.dir\\build.make /nologo -L                  CMakeFiles\\cmTC_8562c.dir\\build' : return code '0x2'
+        Stop.
+        
+      exitCode: 2
+...
